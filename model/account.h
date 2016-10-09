@@ -25,6 +25,7 @@ private:
     QString *username;
     QString *password;
 };
+
 QDataStream &operator<<(QDataStream &ds, const Account &obj);
 QDataStream &operator>>(QDataStream &ds, Account &obj) ;
 
